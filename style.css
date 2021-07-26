@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(243, 243, 243, 0.905);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+
+}
+
+.Phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.Phone img {
+    height: 45rem;
+    padding-left: 10vh;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-right: 16vh;
+}
+#Logo {
+    height: 5rem;
+}
+.Continue {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.group:nth-child(1) {
+    min-width: 19rem;
+}
+.Foto {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login {
+    background-color: rgb(0, 255, 229);
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 2px;
+    margin: 1rem;
+    
+}
+
+.Logout {
+    color: blue;
+    margin-top: 1rem;
+}
+
+.NotAccount {
+    color: rgb(95, 95, 95);
+}
+
+.Link {
+    color: blue;
+}
+
+.Baixar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    flex-direction: column;
+}
+
+.Download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.App {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.App:nth-child(1) {
+    background-image: url('./Imgs/googleplay-button.png');
+}
+
+.App:nth-child(2) {
+    background-image: url('./Imgs/apple-button.png');
+}
+
+@media (max-width: 1024px) {
+    .Wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 840px) {
+    .Wrapper {
+        width: 100%;
+    }
+
+    .Phone {
+        display: none;
+    }
+
+    .Continue {
+        width: 100%;
+    }
+
+    .group {
+        border: none;
+    }
+}
