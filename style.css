@@ -60,13 +60,11 @@ body {
     background-color: #ffffff;
     width: 100%;
     padding: 1.3rem 0;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     border-radius: 8px;
-}
-
-.group:nth-child(1) {
     min-width: 19rem;
 }
+
 .Foto {
     display: flex;
     width: 200px;
@@ -83,8 +81,7 @@ body {
     color: rgb(0, 0, 0);
     padding: 8px;
     border-radius: 2px;
-    margin: 1rem;
-    
+    margin-top: 1rem;
 }
 
 .Logout {
@@ -107,6 +104,7 @@ body {
     width: 100%;
     padding: 1.3rem 0;
     flex-direction: column;
+    padding-bottom: 0;
 }
 
 .Download {
@@ -114,7 +112,7 @@ body {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
+    padding: 0.8rem;
 }
 
 .App {
@@ -139,7 +137,7 @@ body {
 
 @media (max-width: 840px) {
     .Wrapper {
-        width: 100%;
+        width: 50%;
     }
 
     .Phone {
@@ -152,5 +150,8 @@ body {
 
     .group {
         border: none;
+    }
+    .Download {
+        width: 200%;
     }
 }
